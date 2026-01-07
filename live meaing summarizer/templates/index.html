@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Meeting Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Google Fonts for premium typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Live Meeting Summarizer</h1>
+            <p>Record your meeting and get an instant AI-generated summary.</p>
+        </header>
+
+        <main>
+            <div class="controls">
+                <button id="recordBtn" class="btn primary">
+                    <span class="icon">Microphone</span> Start Recording
+                </button>
+                <button id="stopBtn" class="btn danger" disabled>
+                    <span class="icon">Stop</span> Stop & Process
+                </button>
+            </div>
+
+            <div id="status" class="status-message">Ready to record</div>
+
+            <div id="results" class="results-container hidden">
+                <div class="result-card">
+                    <h2>Transcript</h2>
+                    <div id="transcriptOutput" class="content-box"></div>
+                </div>
+
+                <div class="result-card">
+                    <h2>Meeting Summary</h2>
+                    <div id="summaryOutput" class="content-box markdown-body"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by OpenAI Whisper & Ollama</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
