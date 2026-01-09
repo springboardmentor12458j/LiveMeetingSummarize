@@ -1,0 +1,14 @@
+**Meeting Overview**
+The meeting discussed a live meeting summarization application, its features, and a demo of the platform. The application is designed to transcribe, summarize, and analyze audio files, providing users with a comprehensive platform for capturing and understanding conversational intelligence.
+
+**Key Discussion Points**
+* The application allows users to upload audio files, transcribe, and summarize them, with the option to export the transcripts in various formats (JSON, Markdown, PDF, CSV).
+* The platform features a session history, enabling users to reload and review previous sessions.
+* The application can be accessed via a browser, with the option to use a local microphone or a browser-based microphone.
+* The demo showcased the application's features, including login, upload, transcription, summarization, and export options.
+
+**Decisions or Instructions**
+No specific decisions or instructions were made during the meeting, as it primarily focused on demonstrating the application's features and capabilities.
+
+**Action Items**
+* The presenter requested the attendee's email address to demonstrate the email export feature, but no further action items were assigned or discussed during the meeting.

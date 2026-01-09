@@ -1,0 +1,174 @@
+/* -------------------------------
+   Global Reset & Variables
+-------------------------------- */
+:root {
+  --bg: #0f172a;
+  --card: rgba(255, 255, 255, 0.08);
+  --border: rgba(255, 255, 255, 0.15);
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #38bdf8;
+  --success: #22c55e;
+  --danger: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #020617, var(--bg));
+  color: var(--text);
+}
+
+/* -------------------------------
+   Layout
+-------------------------------- */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* -------------------------------
+   Header
+-------------------------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.status {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.status.idle {
+  color: var(--muted);
+}
+
+.status.recording {
+  background: rgba(34, 197, 94, 0.15);
+  color: var(--success);
+}
+
+/* -------------------------------
+   Controls
+-------------------------------- */
+.controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+button {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button.start {
+  background: var(--accent);
+  color: #020617;
+}
+
+button.stop {
+  background: var(--danger);
+  color: white;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* -------------------------------
+   Sections
+-------------------------------- */
+.section {
+  margin-top: 24px;
+}
+
+.section h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: var(--muted);
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  min-height: 120px;
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+/* -------------------------------
+   Email
+-------------------------------- */
+.email-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.4);
+  color: var(--text);
+}
+
+input::placeholder {
+  color: var(--muted);
+}
+
+
+
+
+.pdf-section {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.pdf-btn {
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.pdf-btn:hover {
+  opacity: 0.9;
+}

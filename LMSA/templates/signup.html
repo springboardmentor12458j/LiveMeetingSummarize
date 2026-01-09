@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sign Up · Live Meeting Summarizer</title>
+
+  <!-- Shared App Styling -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container" style="max-width: 420px;">
+  <div class="card">
+
+    <!-- Header -->
+    <div class="header" style="justify-content: center;">
+      <h1>📝 Create Account</h1>
+    </div>
+
+    <p style="text-align:center; color: var(--muted); margin-bottom: 24px;">
+      Get started with your meeting summaries
+    </p>
+
+    <!-- Signup Form -->
+    <form method="POST" action="/signup">
+
+      <div class="section">
+        <h2>Email</h2>
+        <input
+          type="email"
+          name="email"
+          placeholder="you@company.com"
+          required
+        />
+      </div>
+
+      <div class="section">
+        <h2>Password</h2>
+        <input
+          type="password"
+          name="password"
+          placeholder="Create a strong password"
+          required
+        />
+      </div>
+
+      <button
+        type="submit"
+        class="start"
+        style="width:100%; margin-top: 20px;"
+      >
+        Sign Up
+      </button>
+
+    </form>
+
+    <!-- Footer -->
+    <p style="text-align:center; margin-top: 20px; font-size: 0.85rem; color: var(--muted);">
+      Already have an account?
+      <a href="/login" style="color: var(--accent); text-decoration: none;">
+        Login
+      </a>
+    </p>
+
+  </div>
+</div>
+
+</body>
+</html>

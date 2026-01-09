@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Live Meeting Summarizer</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  <!-- Markdown Renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <!-- HEADER -->
+    <div class="header">
+      <h1>🎙 Live Meeting Summarizer</h1>
+
+      <div style="display:flex; align-items:center; gap:12px;">
+        <span class="status idle" id="status">Idle</span>
+
+        <a href="/logout"
+           style="
+             padding: 6px 14px;
+             border-radius: 999px;
+             font-size: 0.85rem;
+             background: rgba(255,255,255,0.1);
+             color: var(--text);
+             text-decoration: none;
+             border: 1px solid var(--border);
+           ">
+          Logout
+        </a>
+      </div>
+    </div>
+
+    <!-- CONTROLS -->
+    <div class="controls">
+      <button class="start" id="startBtn">Start</button>
+      <button class="stop" id="stopBtn" disabled>Stop</button>
+    </div>
+
+    <!-- TRANSCRIPT -->
+    <div class="section">
+      <h2>Transcript</h2>
+      <div class="box" id="transcript">—</div>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="section">
+      <h2>Summary</h2>
+      <div class="box" id="summary">—</div>
+    </div>
+    
+<!-- PDF DOWNLOAD (CENTERED) -->
+<div class="section pdf-section" id="pdfSection" style="display:none;">
+  <form method="POST" action="/download-summary">
+    <button class="pdf-btn" type="submit">
+      ⬇ Download Summary (PDF)
+    </button>
+  </form>
+</div>
+
+    <!-- EMAIL -->
+    <div class="email-row">
+      <input type="email" id="email" placeholder="Receiver Email">
+      <button class="start" id="sendBtn">Send Summary</button>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ===============================
+     JAVASCRIPT
+================================ -->
+<script>
+let recorder;
+let chunks = [];
+let stream;
+
+const statusEl = document.getElementById("status");
+const transcriptEl = document.getElementById("transcript");
+const summaryEl = document.getElementById("summary");
+const startBtn = document.getElementById("startBtn");
+const stopBtn = document.getElementById("stopBtn");
+const sendBtn = document.getElementById("sendBtn");
+
+/* -------------------------------
+   Status UI Helper
+-------------------------------- */
+function setStatus(text, state) {
+  statusEl.textContent = text;
+  statusEl.className = `status ${state}`;
+}
+
+/* -------------------------------
+   Backend Status Polling (NEW)
+-------------------------------- */
+setInterval(async () => {
+  try {
+    const res = await fetch("/status");
+    const data = await res.json();
+
+    if (data.state === "recording") {
+      setStatus("Recording", "recording");
+    } else if (data.state === "processing") {
+      setStatus("Processing audio…", "processing");
+    } else if (data.state === "completed") {
+      setStatus("Completed", "completed");
+    } else {
+      setStatus("Idle", "idle");
+    }
+  } catch (err) {
+    console.error("Status polling failed");
+  }
+}, 1000);
+
+/* -------------------------------
+   Start Recording
+-------------------------------- */
+async function startRecording() {
+  chunks = [];
+  transcriptEl.innerHTML = "—";
+  summaryEl.innerHTML = "—";
+
+  setStatus("Recording", "recording");
+  startBtn.disabled = true;
+  stopBtn.disabled = false;
+
+  stream = await navigator.mediaDevices.getDisplayMedia({
+    video: true,
+    audio: true
+  });
+
+  recorder = new MediaRecorder(stream);
+
+  recorder.ondataavailable = e => {
+    if (e.data.size > 0) chunks.push(e.data);
+  };
+
+  recorder.onstop = processAudio;
+  recorder.start();
+}
+
+/* -------------------------------
+   Stop Recording
+-------------------------------- */
+function stopRecording() {
+  if (recorder && recorder.state !== "inactive") {
+    setStatus("Stopping & processing…", "processing");
+    recorder.stop();
+  }
+}
+
+/* -------------------------------
+   Process Audio
+-------------------------------- */
+async function processAudio() {
+  const blob = new Blob(chunks, { type: recorder.mimeType });
+  const formData = new FormData();
+  formData.append("audio", blob, "meeting.webm");
+
+  try {
+    const res = await fetch("/upload", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await res.json();
+
+    transcriptEl.innerHTML =
+      (data.transcript || "No transcript generated.")
+        .replace(/\n/g, "<br>");
+
+    summaryEl.innerHTML = marked.parse(
+      data.summary || "No summary generated."
+    );
+
+    // ✅ SHOW PDF BUTTON ONLY AFTER SUMMARY EXISTS
+    document.getElementById("pdfSection").style.display = "block";
+
+  } catch (err) {
+    console.error(err);
+    setStatus("Error", "idle");
+  }
+
+  stream.getTracks().forEach(track => track.stop());
+  startBtn.disabled = false;
+  stopBtn.disabled = true;
+}
+
+
+/* -------------------------------
+   Send Email
+-------------------------------- */
+async function sendEmail() {
+  const email = document.getElementById("email").value.trim();
+  const summary = summaryEl.innerText.trim();
+
+  if (!email) {
+    alert("Please enter a receiver email.");
+    return;
+  }
+
+  if (!summary || summary === "—") {
+    alert("No summary available to send.");
+    return;
+  }
+
+  try {
+    const res = await fetch("/send-email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, summary })
+    });
+
+    if (!res.ok) throw new Error();
+    alert("Summary sent successfully ✅");
+  } catch (err) {
+    alert("Failed to send email ❌");
+    console.error(err);
+  }
+}
+
+/* -------------------------------
+   Bind Buttons
+-------------------------------- */
+startBtn.onclick = startRecording;
+stopBtn.onclick = stopRecording;
+sendBtn.onclick = sendEmail;
+
+</script>
+
+</body>
+</html>

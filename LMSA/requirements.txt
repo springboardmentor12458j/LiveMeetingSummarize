@@ -1,0 +1,84 @@
+
+python-dotenv==1.0.0              # Environment variable management
+numpy==1.24.3                      # Numerical computing
+pandas==2.0.3                      # Data manipulation
+
+# -----------------------------------------------------------------------------
+# Audio Processing
+# -----------------------------------------------------------------------------
+pyaudio==0.2.13                    # Audio I/O (may need portaudio system library)
+sounddevice==0.4.6                 # Alternative audio I/O
+soundfile==0.12.1                  # Audio file I/O
+scipy==1.11.4                      # Scientific computing for audio processing
+
+# -----------------------------------------------------------------------------
+# Speech-to-Text Engines
+# -----------------------------------------------------------------------------
+vosk==0.3.45                       # Offline STT engine
+openai-whisper==20231117           # Whisper STT engine
+
+# Alternative Whisper implementation (lighter, faster)
+# faster-whisper==0.10.0           # Uncomment if you prefer this over openai-whisper
+
+# -----------------------------------------------------------------------------
+# Speaker Diarization
+# -----------------------------------------------------------------------------
+pyannote.audio==3.1.1              # Speaker diarization
+torch==2.1.0                       # PyTorch (required for pyannote)
+torchaudio==2.1.0                  # Audio processing with PyTorch
+
+# -----------------------------------------------------------------------------
+# LLM and Summarization
+# -----------------------------------------------------------------------------
+groq==0.4.2                        # Groq API client
+transformers==4.36.2               # HuggingFace transformers
+sentencepiece==0.1.99              # Tokenization (required for some models)
+accelerate==0.25.0                 # Speed up HuggingFace models
+
+# -----------------------------------------------------------------------------
+# Streamlit UI
+# -----------------------------------------------------------------------------
+streamlit==1.29.0                  # Web UI framework
+streamlit-autorefresh==1.0.1       # Auto-refresh components
+plotly==5.18.0                     # Interactive visualizations (optional)
+
+# -----------------------------------------------------------------------------
+# Evaluation Metrics
+# -----------------------------------------------------------------------------
+jiwer==3.0.3                       # Word Error Rate (WER) calculation
+rouge-score==0.1.2                 # ROUGE metrics for summarization
+nltk==3.8.1                        # Natural Language Toolkit (for BLEU)
+sacrebleu==2.3.1                   # BLEU score calculation
+
+# -----------------------------------------------------------------------------
+# Export and File Handling
+# -----------------------------------------------------------------------------
+reportlab==4.0.7                   # PDF generation
+markdown==3.5.1                    # Markdown processing
+python-docx==1.1.0                 # Word document generation (optional)
+pyarrow==14.0.1                    # Parquet file support
+fastparquet==2023.10.1             # Alternative parquet implementation
+
+# -----------------------------------------------------------------------------
+# Utilities
+# -----------------------------------------------------------------------------
+tqdm==4.66.1                       # Progress bars
+colorama==0.4.6                    # Colored terminal output
+pyyaml==6.0.1                      # YAML configuration (optional)
+requests==2.31.0                   # HTTP requests
+
+# -----------------------------------------------------------------------------
+# Development and Testing (optional)
+# -----------------------------------------------------------------------------
+pytest==7.4.3                      # Testing framework
+pytest-cov==4.1.0                  # Coverage reporting
+black==23.12.1                     # Code formatting
+flake8==6.1.0                      # Linting
+mypy==1.7.1                        # Type checking
+
+
+
+pydub==0.25.1
+Flask==3.1.2
+
+reportlab

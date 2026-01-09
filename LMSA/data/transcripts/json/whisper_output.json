@@ -1,0 +1,1645 @@
+{
+  "text": " If a mentor is talking, that mentor how much time he or she is talking, that second you should have to record. So if other person is talking, you should have identify multiple persons, how many persons are talking in that meeting. So take two, identify and then do that project. Try to do that one. Okay. So that's all for today's class. Okay, I will take the attendance. I think still some people are not ordered in that. Okay. Whoever ordered those guys can do it. Okay. Then I'll give you your attendance right. Javita is there? Himaa. Shreya. In middle two people they told and then they went. I don't know those numbers, names. If anyone know please inform to me. Okay. Shreya. Shreya. Satvik. Satvik. Vennala. Yes, ma'am. Suraj. I think Suraj came and then went right. Sharimila. Sh selvit. Sh salvat. Shreya. Satvik. Vennala. Yes, ma'am. Shreya. Satvik. Men. Sey Vasина. Satvik. Ok. zehn meet. Dude. Whatachut Poury, whathow Adiskut, searchhods, searchhods, download, searchhods, Yes ma'am. Lakshmi. Lakshmi Pranavi. Arya. Arya also told right. Arya also told and I think so. Arya. Maruti. Mahesh. Yes ma'am. He. Yes ma'am. Balaji. Yes ma'am. Ashlesh. Yes ma'am. Julfa. Islam. Mahati. Mahati. Mahati Aishwarya. Monica. Yes ma'am. Varshini. Varshini. Adarsh. Satvik. Nikita. Yes ma'am. Okay guys. Okay guys. Try that one what I told the work. Okay. So everyone try that. Okay guys. You can leave.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 7.0,
+      "text": " If a mentor is talking, that mentor how much time he or she is talking, that second you",
+      "tokens": [
+        50364,
+        759,
+        257,
+        14478,
+        307,
+        1417,
+        11,
+        300,
+        14478,
+        577,
+        709,
+        565,
+        415,
+        420,
+        750,
+        307,
+        1417,
+        11,
+        300,
+        1150,
+        291,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5165069661241897,
+      "compression_ratio": 1.7925531914893618,
+      "no_speech_prob": 0.6123237609863281
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.0,
+      "end": 9.32,
+      "text": " should have to record.",
+      "tokens": [
+        50714,
+        820,
+        362,
+        281,
+        2136,
+        13,
+        50830
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5165069661241897,
+      "compression_ratio": 1.7925531914893618,
+      "no_speech_prob": 0.6123237609863281
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9.32,
+      "end": 14.52,
+      "text": " So if other person is talking, you should have identify multiple persons, how many persons",
+      "tokens": [
+        50830,
+        407,
+        498,
+        661,
+        954,
+        307,
+        1417,
+        11,
+        291,
+        820,
+        362,
+        5876,
+        3866,
+        14453,
+        11,
+        577,
+        867,
+        14453,
+        51090
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5165069661241897,
+      "compression_ratio": 1.7925531914893618,
+      "no_speech_prob": 0.6123237609863281
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 14.52,
+      "end": 16.52,
+      "text": " are talking in that meeting.",
+      "tokens": [
+        51090,
+        366,
+        1417,
+        294,
+        300,
+        3440,
+        13,
+        51190
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5165069661241897,
+      "compression_ratio": 1.7925531914893618,
+      "no_speech_prob": 0.6123237609863281
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 16.52,
+      "end": 21.52,
+      "text": " So take two, identify and then do that project.",
+      "tokens": [
+        51190,
+        407,
+        747,
+        732,
+        11,
+        5876,
+        293,
+        550,
+        360,
+        300,
+        1716,
+        13,
+        51440
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5165069661241897,
+      "compression_ratio": 1.7925531914893618,
+      "no_speech_prob": 0.6123237609863281
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 21.52,
+      "end": 23.52,
+      "text": " Try to do that one.",
+      "tokens": [
+        51440,
+        6526,
+        281,
+        360,
+        300,
+        472,
+        13,
+        51540
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5165069661241897,
+      "compression_ratio": 1.7925531914893618,
+      "no_speech_prob": 0.6123237609863281
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 23.52,
+      "end": 24.52,
+      "text": " Okay.",
+      "tokens": [
+        51540,
+        1033,
+        13,
+        51590
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5165069661241897,
+      "compression_ratio": 1.7925531914893618,
+      "no_speech_prob": 0.6123237609863281
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 24.52,
+      "end": 26.52,
+      "text": " So that's all for today's class.",
+      "tokens": [
+        51590,
+        407,
+        300,
+        311,
+        439,
+        337,
+        965,
+        311,
+        1508,
+        13,
+        51690
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.5165069661241897,
+      "compression_ratio": 1.7925531914893618,
+      "no_speech_prob": 0.6123237609863281
+    },
+    {
+      "id": 8,
+      "seek": 2652,
+      "start": 26.52,
+      "end": 28.52,
+      "text": " Okay, I will take the attendance.",
+      "tokens": [
+        50364,
+        1033,
+        11,
+        286,
+        486,
+        747,
+        264,
+        24337,
+        13,
+        50464
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 9,
+      "seek": 2652,
+      "start": 28.52,
+      "end": 31.52,
+      "text": " I think still some people are not ordered in that.",
+      "tokens": [
+        50464,
+        286,
+        519,
+        920,
+        512,
+        561,
+        366,
+        406,
+        8866,
+        294,
+        300,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 10,
+      "seek": 2652,
+      "start": 31.52,
+      "end": 32.519999999999996,
+      "text": " Okay.",
+      "tokens": [
+        50614,
+        1033,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 11,
+      "seek": 2652,
+      "start": 32.519999999999996,
+      "end": 35.519999999999996,
+      "text": " Whoever ordered those guys can do it.",
+      "tokens": [
+        50664,
+        24743,
+        8866,
+        729,
+        1074,
+        393,
+        360,
+        309,
+        13,
+        50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 12,
+      "seek": 2652,
+      "start": 35.519999999999996,
+      "end": 36.519999999999996,
+      "text": " Okay.",
+      "tokens": [
+        50814,
+        1033,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 13,
+      "seek": 2652,
+      "start": 36.519999999999996,
+      "end": 40.519999999999996,
+      "text": " Then I'll give you your attendance right.",
+      "tokens": [
+        50864,
+        1396,
+        286,
+        603,
+        976,
+        291,
+        428,
+        24337,
+        558,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 14,
+      "seek": 2652,
+      "start": 40.519999999999996,
+      "end": 42.519999999999996,
+      "text": " Javita is there?",
+      "tokens": [
+        51064,
+        508,
+        706,
+        2786,
+        307,
+        456,
+        30,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 15,
+      "seek": 2652,
+      "start": 42.519999999999996,
+      "end": 43.519999999999996,
+      "text": " Himaa.",
+      "tokens": [
+        51164,
+        5920,
+        4332,
+        13,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 16,
+      "seek": 2652,
+      "start": 43.519999999999996,
+      "end": 44.519999999999996,
+      "text": " Shreya.",
+      "tokens": [
+        51214,
+        1160,
+        265,
+        3016,
+        13,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 17,
+      "seek": 2652,
+      "start": 44.519999999999996,
+      "end": 49.519999999999996,
+      "text": " In middle two people they told and then they went.",
+      "tokens": [
+        51264,
+        682,
+        2808,
+        732,
+        561,
+        436,
+        1907,
+        293,
+        550,
+        436,
+        1437,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4802345453306686,
+      "compression_ratio": 1.4715909090909092,
+      "no_speech_prob": 0.16422432661056519
+    },
+    {
+      "id": 18,
+      "seek": 4952,
+      "start": 49.52,
+      "end": 56.52,
+      "text": " I don't know those numbers, names.",
+      "tokens": [
+        50364,
+        286,
+        500,
+        380,
+        458,
+        729,
+        3547,
+        11,
+        5288,
+        13,
+        50714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 19,
+      "seek": 4952,
+      "start": 56.52,
+      "end": 59.52,
+      "text": " If anyone know please inform to me.",
+      "tokens": [
+        50714,
+        759,
+        2878,
+        458,
+        1767,
+        1356,
+        281,
+        385,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 20,
+      "seek": 4952,
+      "start": 59.52,
+      "end": 60.52,
+      "text": " Okay.",
+      "tokens": [
+        50864,
+        1033,
+        13,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 21,
+      "seek": 4952,
+      "start": 60.52,
+      "end": 61.52,
+      "text": " Shreya.",
+      "tokens": [
+        50914,
+        1160,
+        265,
+        3016,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 22,
+      "seek": 4952,
+      "start": 61.52,
+      "end": 62.52,
+      "text": " Shreya.",
+      "tokens": [
+        50964,
+        1160,
+        265,
+        3016,
+        13,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 23,
+      "seek": 4952,
+      "start": 62.52,
+      "end": 63.52,
+      "text": " Satvik.",
+      "tokens": [
+        51014,
+        5344,
+        42252,
+        13,
+        51064
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 24,
+      "seek": 4952,
+      "start": 63.52,
+      "end": 64.52000000000001,
+      "text": " Satvik.",
+      "tokens": [
+        51064,
+        5344,
+        42252,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 25,
+      "seek": 4952,
+      "start": 64.52000000000001,
+      "end": 65.52000000000001,
+      "text": " Vennala.",
+      "tokens": [
+        51114,
+        11182,
+        77,
+        5159,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 26,
+      "seek": 4952,
+      "start": 65.52000000000001,
+      "end": 66.52000000000001,
+      "text": " Yes, ma'am.",
+      "tokens": [
+        51164,
+        1079,
+        11,
+        463,
+        6,
+        335,
+        13,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 27,
+      "seek": 4952,
+      "start": 66.52000000000001,
+      "end": 67.52000000000001,
+      "text": " Suraj.",
+      "tokens": [
+        51214,
+        6732,
+        1805,
+        13,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 28,
+      "seek": 4952,
+      "start": 67.52000000000001,
+      "end": 72.52000000000001,
+      "text": " I think Suraj came and then went right.",
+      "tokens": [
+        51264,
+        286,
+        519,
+        6732,
+        1805,
+        1361,
+        293,
+        550,
+        1437,
+        558,
+        13,
+        51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26913444995880126,
+      "compression_ratio": 1.353846153846154,
+      "no_speech_prob": 0.11580368131399155
+    },
+    {
+      "id": 29,
+      "seek": 7252,
+      "start": 72.52,
+      "end": 74.52,
+      "text": " Sharimila.",
+      "tokens": [
+        50364,
+        22030,
+        332,
+        7371,
+        13,
+        50464
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 30,
+      "seek": 7252,
+      "start": 74.52,
+      "end": 81.52,
+      "text": " Sh selvit.",
+      "tokens": [
+        50464,
+        1160,
+        5851,
+        10398,
+        13,
+        50814
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 31,
+      "seek": 7252,
+      "start": 81.52,
+      "end": 82.52,
+      "text": " Sh salvat.",
+      "tokens": [
+        50814,
+        1160,
+        1845,
+        23352,
+        13,
+        50864
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 32,
+      "seek": 7252,
+      "start": 82.52,
+      "end": 83.52,
+      "text": " Shreya.",
+      "tokens": [
+        50864,
+        1160,
+        265,
+        3016,
+        13,
+        50914
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 33,
+      "seek": 7252,
+      "start": 83.52,
+      "end": 84.52,
+      "text": " Satvik.",
+      "tokens": [
+        50914,
+        5344,
+        42252,
+        13,
+        50964
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 34,
+      "seek": 7252,
+      "start": 84.52,
+      "end": 85.52,
+      "text": " Vennala.",
+      "tokens": [
+        50964,
+        11182,
+        77,
+        5159,
+        13,
+        51014
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 35,
+      "seek": 7252,
+      "start": 85.52,
+      "end": 86.52,
+      "text": " Yes, ma'am.",
+      "tokens": [
+        51014,
+        1079,
+        11,
+        463,
+        6,
+        335,
+        13,
+        51064
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 36,
+      "seek": 7252,
+      "start": 86.52,
+      "end": 87.52,
+      "text": " Shreya.",
+      "tokens": [
+        51064,
+        1160,
+        265,
+        3016,
+        13,
+        51114
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 37,
+      "seek": 7252,
+      "start": 87.52,
+      "end": 88.52,
+      "text": " Satvik.",
+      "tokens": [
+        51114,
+        5344,
+        42252,
+        13,
+        51164
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 38,
+      "seek": 7252,
+      "start": 88.52,
+      "end": 89.52,
+      "text": " Men.",
+      "tokens": [
+        51164,
+        6685,
+        13,
+        51214
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 39,
+      "seek": 7252,
+      "start": 89.52,
+      "end": 90.52,
+      "text": " Sey Vasина.",
+      "tokens": [
+        51214,
+        1100,
+        88,
+        23299,
+        7861,
+        13,
+        51264
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 40,
+      "seek": 7252,
+      "start": 90.52,
+      "end": 91.52,
+      "text": " Satvik.",
+      "tokens": [
+        51264,
+        5344,
+        42252,
+        13,
+        51314
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 41,
+      "seek": 7252,
+      "start": 91.52,
+      "end": 92.52,
+      "text": " Ok.",
+      "tokens": [
+        51314,
+        3477,
+        13,
+        51364
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 42,
+      "seek": 7252,
+      "start": 92.52,
+      "end": 93.52,
+      "text": " zehn meet.",
+      "tokens": [
+        51364,
+        33975,
+        1677,
+        13,
+        51414
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 43,
+      "seek": 7252,
+      "start": 93.52,
+      "end": 94.52,
+      "text": " Dude.",
+      "tokens": [
+        51414,
+        12042,
+        13,
+        51464
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 44,
+      "seek": 7252,
+      "start": 94.52,
+      "end": 101.52,
+      "text": " Whatachut Poury, whathow Adiskut, searchhods, searchhods, download, searchhods,",
+      "tokens": [
+        51464,
+        708,
+        608,
+        325,
+        8732,
+        88,
+        11,
+        437,
+        4286,
+        1999,
+        7797,
+        325,
+        11,
+        3164,
+        71,
+        19768,
+        11,
+        3164,
+        71,
+        19768,
+        11,
+        5484,
+        11,
+        3164,
+        71,
+        19768,
+        11,
+        51814
+      ],
+      "temperature": 1.0,
+      "avg_logprob": -2.307259888775581,
+      "compression_ratio": 1.4266666666666667,
+      "no_speech_prob": 0.42618292570114136
+    },
+    {
+      "id": 45,
+      "seek": 10152,
+      "start": 101.52,
+      "end": 109.61999999999999,
+      "text": " Yes ma'am.",
+      "tokens": [
+        50364,
+        1079,
+        463,
+        6,
+        335,
+        13,
+        50769
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7235562006632487,
+      "compression_ratio": 1.2666666666666666,
+      "no_speech_prob": 0.8758593797683716
+    },
+    {
+      "id": 46,
+      "seek": 10152,
+      "start": 109.61999999999999,
+      "end": 113.39999999999999,
+      "text": " Lakshmi.",
+      "tokens": [
+        50769,
+        37327,
+        2716,
+        3057,
+        13,
+        50958
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7235562006632487,
+      "compression_ratio": 1.2666666666666666,
+      "no_speech_prob": 0.8758593797683716
+    },
+    {
+      "id": 47,
+      "seek": 10152,
+      "start": 113.39999999999999,
+      "end": 118.19999999999999,
+      "text": " Lakshmi Pranavi.",
+      "tokens": [
+        50958,
+        37327,
+        2716,
+        3057,
+        2114,
+        282,
+        18442,
+        13,
+        51198
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7235562006632487,
+      "compression_ratio": 1.2666666666666666,
+      "no_speech_prob": 0.8758593797683716
+    },
+    {
+      "id": 48,
+      "seek": 10152,
+      "start": 118.19999999999999,
+      "end": 119.19999999999999,
+      "text": " Arya.",
+      "tokens": [
+        51198,
+        39960,
+        64,
+        13,
+        51248
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7235562006632487,
+      "compression_ratio": 1.2666666666666666,
+      "no_speech_prob": 0.8758593797683716
+    },
+    {
+      "id": 49,
+      "seek": 10152,
+      "start": 119.19999999999999,
+      "end": 123.32,
+      "text": " Arya also told right.",
+      "tokens": [
+        51248,
+        39960,
+        64,
+        611,
+        1907,
+        558,
+        13,
+        51454
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7235562006632487,
+      "compression_ratio": 1.2666666666666666,
+      "no_speech_prob": 0.8758593797683716
+    },
+    {
+      "id": 50,
+      "seek": 10152,
+      "start": 123.32,
+      "end": 129.32,
+      "text": " Arya also told and I think so.",
+      "tokens": [
+        51454,
+        39960,
+        64,
+        611,
+        1907,
+        293,
+        286,
+        519,
+        370,
+        13,
+        51754
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.7235562006632487,
+      "compression_ratio": 1.2666666666666666,
+      "no_speech_prob": 0.8758593797683716
+    },
+    {
+      "id": 51,
+      "seek": 12932,
+      "start": 129.32,
+      "end": 133.35999999999999,
+      "text": " Arya.",
+      "tokens": [
+        50364,
+        39960,
+        64,
+        13,
+        50566
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.7445195755868588,
+      "compression_ratio": 1.3392857142857142,
+      "no_speech_prob": 0.34477245807647705
+    },
+    {
+      "id": 52,
+      "seek": 12932,
+      "start": 133.35999999999999,
+      "end": 139.4,
+      "text": " Maruti.",
+      "tokens": [
+        50566,
+        2039,
+        29161,
+        13,
+        50868
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.7445195755868588,
+      "compression_ratio": 1.3392857142857142,
+      "no_speech_prob": 0.34477245807647705
+    },
+    {
+      "id": 53,
+      "seek": 12932,
+      "start": 139.4,
+      "end": 143.4,
+      "text": " Mahesh.",
+      "tokens": [
+        50868,
+        10104,
+        14935,
+        13,
+        51068
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.7445195755868588,
+      "compression_ratio": 1.3392857142857142,
+      "no_speech_prob": 0.34477245807647705
+    },
+    {
+      "id": 54,
+      "seek": 12932,
+      "start": 143.4,
+      "end": 145.4,
+      "text": " Yes ma'am.",
+      "tokens": [
+        51068,
+        1079,
+        463,
+        6,
+        335,
+        13,
+        51168
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.7445195755868588,
+      "compression_ratio": 1.3392857142857142,
+      "no_speech_prob": 0.34477245807647705
+    },
+    {
+      "id": 55,
+      "seek": 12932,
+      "start": 145.4,
+      "end": 146.4,
+      "text": " He.",
+      "tokens": [
+        51168,
+        634,
+        13,
+        51218
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.7445195755868588,
+      "compression_ratio": 1.3392857142857142,
+      "no_speech_prob": 0.34477245807647705
+    },
+    {
+      "id": 56,
+      "seek": 12932,
+      "start": 146.4,
+      "end": 148.4,
+      "text": " Yes ma'am.",
+      "tokens": [
+        51218,
+        1079,
+        463,
+        6,
+        335,
+        13,
+        51318
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.7445195755868588,
+      "compression_ratio": 1.3392857142857142,
+      "no_speech_prob": 0.34477245807647705
+    },
+    {
+      "id": 57,
+      "seek": 12932,
+      "start": 148.4,
+      "end": 150.4,
+      "text": " Balaji.",
+      "tokens": [
+        51318,
+        13140,
+        29319,
+        13,
+        51418
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.7445195755868588,
+      "compression_ratio": 1.3392857142857142,
+      "no_speech_prob": 0.34477245807647705
+    },
+    {
+      "id": 58,
+      "seek": 12932,
+      "start": 150.4,
+      "end": 153.4,
+      "text": " Yes ma'am.",
+      "tokens": [
+        51418,
+        1079,
+        463,
+        6,
+        335,
+        13,
+        51568
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.7445195755868588,
+      "compression_ratio": 1.3392857142857142,
+      "no_speech_prob": 0.34477245807647705
+    },
+    {
+      "id": 59,
+      "seek": 12932,
+      "start": 153.4,
+      "end": 156.4,
+      "text": " Ashlesh.",
+      "tokens": [
+        51568,
+        10279,
+        904,
+        71,
+        13,
+        51718
+      ],
+      "temperature": 0.4,
+      "avg_logprob": -0.7445195755868588,
+      "compression_ratio": 1.3392857142857142,
+      "no_speech_prob": 0.34477245807647705
+    },
+    {
+      "id": 60,
+      "seek": 15640,
+      "start": 156.4,
+      "end": 166.4,
+      "text": " Yes ma'am.",
+      "tokens": [
+        50364,
+        1079,
+        463,
+        6,
+        335,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3818952158877724,
+      "compression_ratio": 1.183673469387755,
+      "no_speech_prob": 0.22503751516342163
+    },
+    {
+      "id": 61,
+      "seek": 15640,
+      "start": 166.4,
+      "end": 169.4,
+      "text": " Julfa.",
+      "tokens": [
+        50864,
+        508,
+        5757,
+        64,
+        13,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3818952158877724,
+      "compression_ratio": 1.183673469387755,
+      "no_speech_prob": 0.22503751516342163
+    },
+    {
+      "id": 62,
+      "seek": 15640,
+      "start": 169.4,
+      "end": 171.4,
+      "text": " Islam.",
+      "tokens": [
+        51014,
+        8571,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3818952158877724,
+      "compression_ratio": 1.183673469387755,
+      "no_speech_prob": 0.22503751516342163
+    },
+    {
+      "id": 63,
+      "seek": 15640,
+      "start": 171.4,
+      "end": 174.4,
+      "text": " Mahati.",
+      "tokens": [
+        51114,
+        10104,
+        6908,
+        13,
+        51264
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3818952158877724,
+      "compression_ratio": 1.183673469387755,
+      "no_speech_prob": 0.22503751516342163
+    },
+    {
+      "id": 64,
+      "seek": 15640,
+      "start": 174.4,
+      "end": 177.4,
+      "text": " Mahati.",
+      "tokens": [
+        51264,
+        10104,
+        6908,
+        13,
+        51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3818952158877724,
+      "compression_ratio": 1.183673469387755,
+      "no_speech_prob": 0.22503751516342163
+    },
+    {
+      "id": 65,
+      "seek": 15640,
+      "start": 177.4,
+      "end": 184.4,
+      "text": " Mahati Aishwarya.",
+      "tokens": [
+        51414,
+        10104,
+        6908,
+        316,
+        742,
+        86,
+        29313,
+        13,
+        51764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3818952158877724,
+      "compression_ratio": 1.183673469387755,
+      "no_speech_prob": 0.22503751516342163
+    },
+    {
+      "id": 66,
+      "seek": 18440,
+      "start": 184.4,
+      "end": 187.4,
+      "text": " Monica.",
+      "tokens": [
+        50364,
+        25363,
+        13,
+        50514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2588184356689453,
+      "compression_ratio": 1.1020408163265305,
+      "no_speech_prob": 0.1927841752767563
+    },
+    {
+      "id": 67,
+      "seek": 18440,
+      "start": 187.4,
+      "end": 190.4,
+      "text": " Yes ma'am.",
+      "tokens": [
+        50514,
+        1079,
+        463,
+        6,
+        335,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2588184356689453,
+      "compression_ratio": 1.1020408163265305,
+      "no_speech_prob": 0.1927841752767563
+    },
+    {
+      "id": 68,
+      "seek": 18440,
+      "start": 190.4,
+      "end": 195.4,
+      "text": " Varshini.",
+      "tokens": [
+        50664,
+        691,
+        7064,
+        3812,
+        13,
+        50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2588184356689453,
+      "compression_ratio": 1.1020408163265305,
+      "no_speech_prob": 0.1927841752767563
+    },
+    {
+      "id": 69,
+      "seek": 18440,
+      "start": 195.4,
+      "end": 204.4,
+      "text": " Varshini.",
+      "tokens": [
+        50914,
+        691,
+        7064,
+        3812,
+        13,
+        51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2588184356689453,
+      "compression_ratio": 1.1020408163265305,
+      "no_speech_prob": 0.1927841752767563
+    },
+    {
+      "id": 70,
+      "seek": 18440,
+      "start": 204.4,
+      "end": 208.4,
+      "text": " Adarsh.",
+      "tokens": [
+        51364,
+        1999,
+        7064,
+        13,
+        51564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2588184356689453,
+      "compression_ratio": 1.1020408163265305,
+      "no_speech_prob": 0.1927841752767563
+    },
+    {
+      "id": 71,
+      "seek": 18440,
+      "start": 208.4,
+      "end": 212.4,
+      "text": " Satvik.",
+      "tokens": [
+        51564,
+        5344,
+        42252,
+        13,
+        51764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2588184356689453,
+      "compression_ratio": 1.1020408163265305,
+      "no_speech_prob": 0.1927841752767563
+    },
+    {
+      "id": 72,
+      "seek": 21240,
+      "start": 212.4,
+      "end": 216.4,
+      "text": " Nikita.",
+      "tokens": [
+        50364,
+        13969,
+        2786,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2529665742601667,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 0.42039912939071655
+    },
+    {
+      "id": 73,
+      "seek": 21240,
+      "start": 216.4,
+      "end": 218.4,
+      "text": " Yes ma'am.",
+      "tokens": [
+        50564,
+        1079,
+        463,
+        6,
+        335,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2529665742601667,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 0.42039912939071655
+    },
+    {
+      "id": 74,
+      "seek": 21240,
+      "start": 218.4,
+      "end": 220.4,
+      "text": " Okay guys.",
+      "tokens": [
+        50664,
+        1033,
+        1074,
+        13,
+        50764
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2529665742601667,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 0.42039912939071655
+    },
+    {
+      "id": 75,
+      "seek": 21240,
+      "start": 220.4,
+      "end": 222.4,
+      "text": " Okay guys.",
+      "tokens": [
+        50764,
+        1033,
+        1074,
+        13,
+        50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2529665742601667,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 0.42039912939071655
+    },
+    {
+      "id": 76,
+      "seek": 21240,
+      "start": 222.4,
+      "end": 224.4,
+      "text": " Try that one what I told the work.",
+      "tokens": [
+        50864,
+        6526,
+        300,
+        472,
+        437,
+        286,
+        1907,
+        264,
+        589,
+        13,
+        50964
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2529665742601667,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 0.42039912939071655
+    },
+    {
+      "id": 77,
+      "seek": 21240,
+      "start": 224.4,
+      "end": 225.4,
+      "text": " Okay.",
+      "tokens": [
+        50964,
+        1033,
+        13,
+        51014
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2529665742601667,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 0.42039912939071655
+    },
+    {
+      "id": 78,
+      "seek": 21240,
+      "start": 225.4,
+      "end": 227.4,
+      "text": " So everyone try that.",
+      "tokens": [
+        51014,
+        407,
+        1518,
+        853,
+        300,
+        13,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2529665742601667,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 0.42039912939071655
+    },
+    {
+      "id": 79,
+      "seek": 21240,
+      "start": 227.4,
+      "end": 228.4,
+      "text": " Okay guys.",
+      "tokens": [
+        51114,
+        1033,
+        1074,
+        13,
+        51164
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2529665742601667,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 0.42039912939071655
+    },
+    {
+      "id": 80,
+      "seek": 21240,
+      "start": 228.4,
+      "end": 229.4,
+      "text": " You can leave.",
+      "tokens": [
+        51164,
+        509,
+        393,
+        1856,
+        13,
+        51214
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2529665742601667,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 0.42039912939071655
+    }
+  ],
+  "language": "en"
+}
